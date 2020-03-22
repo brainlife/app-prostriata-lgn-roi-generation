@@ -1,0 +1,7 @@
+{
+	"template_left":	"Q1-Q6_RelatedParcellation210.L.CorticalAreas_dil_Colors.32k_fs_LR.dlabel.nii",
+	"template_right":	"Q1-Q6_RelatedParcellation210.R.CorticalAreas_dil_Colors.32k_fs_LR.dlabel.nii",
+	"postfreesurfer":	"/test/102311/",
+	"freesurfer":	"test/output/",
+	"anat":	"test/anat/t1.nii.gz"
+}
