@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -l nodes=1:ppn=1,vmem=32gb,walltime=0:30:00
-#PBS -N prosm-roi-generation
+#PBS -N app-prostriata-lgn-roi-generation
 #PBS -V
 
 # generate surfaces and label volume
@@ -19,11 +19,13 @@ if [ ! -d ./rois ]; then
 	time singularity exec -e docker://brainlife/fsl:5.0.9 ./threshold.sh
 fi
 
-#if [ -z "rois" ]; then
-#	echo "failed"
-#	exit 1
-#else
-#	echo "complete"
-#	rm -rf *.gii *.nii.gz freesurfer license.txt label
-#	exit 0
-#fi
+if [ -z "rois" ]; then
+	echo "failed"
+	exit 1
+else
+	echo "complete"
+	mkdir -p raw
+	mv *.gii *.nii.gz label freesurfer ./raw/
+	rm -rf license.txt
+	exit 0
+fi
