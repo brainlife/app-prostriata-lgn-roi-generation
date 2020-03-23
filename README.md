@@ -33,7 +33,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.34](https://d
 {
         "anat/t1w": "./input/t1w/",
         "fsurfer": "./input/freesurfer/",
-        "hcp/freesurferpost": "input/freesurferpost",      
+        "hcp/freesurferpost": "./input/freesurferpost",      
   }
 ```
 
@@ -60,7 +60,7 @@ bl dataset download 5b96bc8d059cf900271924f5 && mv 5b96bc8d059cf900271924f5 inpu
 
 ## Output
 
-The main outputs of this App is a rois file containing both the LGN and Prostriata
+The main outputs of this App is a file containing LGN and Prostriata rois
 
 #### Product.json
 The secondary output of this app is `product.json`. This file allows web interfaces, DB and API calls on the results of the processing. 
