@@ -1,5 +1,5 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/soichih/abcd-spec)
-[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.34-blue.svg)](https://doi.org/10.25663/bl.app.34)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.34-blue.svg)](https://doi.org/10.25663/brainlife.app.288)
 
 # app-prostriata-lgn-roi-generation
 
@@ -22,7 +22,7 @@ This app will map LGN and Prostriata ROIs to the native volume of the selected s
 
 ### On Brainlife.io
 
-You can submit this App online at [https://doi.org/10.25663/bl.app.34](https://doi.org/10.25663/bl.app.34) via the "Execute" tab.
+You can submit this App online at [https://doi.org/10.25663/brainlife.app.288](https://doi.org/10.25663/brainlife.app.288) via the "Execute" tab.
 
 ### Running Locally (on your machine)
 
